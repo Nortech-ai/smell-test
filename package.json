@@ -1,0 +1,17 @@
+{
+  "name": "@nortech/smell-test",
+  "version": "1.0.0",
+  "description": "Runs a cli command and waits on a specific log",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "prepack": "tsc src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
