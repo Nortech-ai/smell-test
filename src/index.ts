@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { ChildProcessByStdio, spawn } from "child_process";
 import { program } from "commander";
 import { Readable } from "stream";
