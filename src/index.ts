@@ -50,6 +50,7 @@ function tryFind(
 ) {
   const dataString = data.toString();
   if (dataString.includes(logLine)) {
+    console.log(logLine);
     child.kill("SIGTERM");
     process.exit(0);
   }
