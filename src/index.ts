@@ -13,7 +13,7 @@ program
     "<command...>",
     "The command to run. If you want to pass flags, use --"
   )
-  .option("--quiet", "Don't output anything")
+  .option("-q, --quiet", "Don't output anything")
   .option(
     "-a, --amount <amount>",
     "The amount of times to check for the log line",
