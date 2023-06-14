@@ -8,7 +8,7 @@
   "author": "joao@nortech.ai",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "prepack": "tsc src/index.ts"
+    "prepack": "tsc"
   },
   "files": [
     "src/index.js"
