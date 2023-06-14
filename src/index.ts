@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import * as assert from "assert";
+import assert from "assert";
 import { spawn } from "child_process";
 import { program } from "commander";
 
