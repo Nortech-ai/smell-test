@@ -57,11 +57,11 @@ program
           if (!options.quiet) {
             console.log(`Found log line: ${logLine}`);
           }
+          count++;
           if (count >= amount) {
             child.kill("SIGTERM");
             process.exit(0);
           }
-          count++;
         }
       }
     }
