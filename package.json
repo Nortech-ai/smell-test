@@ -1,6 +1,6 @@
 {
   "name": "@nortech/smell-test",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Runs a cli command and waits on a specific log",
   "main": "src/index.js",
   "bin": "src/index.js",
